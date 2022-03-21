@@ -1,0 +1,27 @@
+<html>
+<head>
+<script>
+
+var qtd_lados=parseInt(prompt("Digite a quantidade de lados: "));
+var tamanho_lados_em_cm=parseInt(prompt("Digite o valor do lado em cm: "));
+
+if(qtd_lados==3){
+    document.write("PERIMETRO TRIÂNGULO: "+tamanho_lados_em_cm*3+" cm");
+}else if(qtd_lados==4){
+    document.write("PERIMETRO QUADRADO: "+tamanho_lados_em_cm*4+" cm");
+}
+else if(qtd_lados==5){
+    document.write("PENTÁGONO");
+}else if(qtd_lados<3){
+    document.write("NÃO É UM POLIGONO");
+}else{
+    document.write("POLIGONO NÃO IDENTIFICADO");
+}
+</script>
+</head>
+
+
+<body>
+
+</body>
+</html>
